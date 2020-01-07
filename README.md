@@ -92,9 +92,4 @@ ssh admin@api.rnstech.in
 kops delete cluster  --yes
 ```
 
-# Optional (Create terraform scripts through kops)
 
-```
-  https://github.com/kubernetes/kops/blob/master/docs/terraform.md
-
-```
