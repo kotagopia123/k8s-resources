@@ -65,7 +65,7 @@ kops create cluster \
 --node-count=2 \
 --master-size=t2.micro \
 --node-size=t2.micro \
---zones=ap-south-1a,ap-south-1b \
+--zones=us-east-1a,us-east-1b \
 --name=${KOPS_CLUSTER_NAME} \
 --dns private \
 --master-count 1
@@ -85,7 +85,7 @@ For the above above command, you might see validation failed error initially whe
 
 ### 11. To connect to the master
 ```sh
-ssh admin@api.javahome.in
+ssh admin@api.rnstech.in
 ```
 # Destroy the kubernetes cluster
 ```sh
