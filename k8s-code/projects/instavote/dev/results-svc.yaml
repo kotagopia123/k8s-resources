@@ -5,6 +5,7 @@ metadata:
   name: results 
   labels: 
     role: results
+  namespace: instavote
 spec:
   selector:
     role: results
