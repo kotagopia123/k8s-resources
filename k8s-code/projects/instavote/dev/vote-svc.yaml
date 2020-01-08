@@ -4,6 +4,7 @@ metadata:
   name: vote
   labels:
     role: vote
+  namespace: instavote
 spec:
   selector:
     role: vote
