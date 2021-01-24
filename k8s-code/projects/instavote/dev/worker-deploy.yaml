@@ -28,4 +28,4 @@ spec:
     spec:
       containers:
         - name: worker
-          image: gvenkat/worker
+          image: gvenkat/workerapp
