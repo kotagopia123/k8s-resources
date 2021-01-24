@@ -19,7 +19,7 @@ spec:
         version: "9.4"
     spec:
       containers:
-      - image: postgres:9.4
+      - image: gvenkat/postgres
         imagePullPolicy: Always
         name: db
         ports:
