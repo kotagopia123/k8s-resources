@@ -19,9 +19,12 @@ spec:
         version: "9.4"
     spec:
       containers:
-      - image: gvenkat/postgres
+      - image: gvenkat/postgres #postgres:9.4
         imagePullPolicy: Always
         name: db
+        env:
+          - name: POSTGRES_PASSWORD
+            value: postgres
         ports:
         - containerPort: 5432
           protocol: TCP
