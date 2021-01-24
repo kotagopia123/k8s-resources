@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: gvenkat/vote-result
+          image: gvenkat/resultapp:v1
           ports:
             - containerPort: 80
               protocol: TCP
