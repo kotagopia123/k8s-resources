@@ -92,4 +92,8 @@ ssh ubuntu@api.rnstech.in
 kops delete cluster  --yes
 ```
 
+# Error: You must be logged in to the server (Unauthorized) KOPS
+```
+kops export kubecfg --admin
+```
 
